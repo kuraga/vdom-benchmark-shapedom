@@ -3,7 +3,7 @@
 var benchmark = require('vdom-benchmark-base');
 var Shapedom = require('shapedom');
 
-var NAME = 'shapedom';
+var NAME = 'Shapedom';
 var VERSION = '0.1.2';
 
 var shapedom;
