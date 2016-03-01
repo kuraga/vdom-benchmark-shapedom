@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "vdom-benchmark-shapedom",
-  "version": "0.1.2-2",
+  "version": "0.2.0-3",
   "description": "Virtual DOM Benchmark: Shapedom",
   "license": "BSD",
   "repository": "https://github.com/localvoid/vdom-benchmark-shapedom",
@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "vdom-benchmark-base": "^0.2.4",
-    "shapedom": "0.1.2"
+    "shapedom": "0.2.0"
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",

@@ -4,7 +4,7 @@ var benchmark = require('vdom-benchmark-base');
 var Shapedom = require('shapedom');
 
 var NAME = 'Shapedom';
-var VERSION = '0.1.2';
+var VERSION = '0.2.0';
 
 var shapedom;
 
@@ -26,11 +26,7 @@ function renderTree(nodes) {
       shape = {
         tag: 'span',
         attrs: {},
-        children: [
-          {
-            text: n.key.toString()
-          }
-        ]
+        children: [n.key.toString()]
       };
     }
     children.push(shape);
